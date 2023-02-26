@@ -15,12 +15,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: white;
 }
 
@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+input[type='date'] {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+
+.App {
+  margin: 2rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chart {
+  width: 20%;
+  margin-right: 2rem;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
