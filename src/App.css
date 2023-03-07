@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
 .App-logo {
@@ -7,14 +7,14 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
+  background-color:blue;
   min-height: 10px;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: 20px;
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -41,39 +41,26 @@ h1 {
   margin-bottom: 2rem;
 }
 
-input[type='date'] {
-  margin-left: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1rem;
+
+
+/* * For screens smaller than 640px */ */
+/* @media (max-width: 640px) {
+  .w-full.md\:w-1\/2 {
+    width: 100%;
+  }
+} */
+
+/* For screens larger than 640px */
+
+
+/* Adjust the font size and padding of the list items */
+ul.border li {
+  font-size: 16px;
+  padding: 12px;
 }
 
-
-.App {
-  margin: 2rem;
-  text-align: center;
+/* Adjust the font size and padding of the buttons */
+button {
+  font-size: 14px;
+  padding: 8px;
 }
-
-h1,
-h2 {
-  margin-bottom: 1.5rem;
-}
-
-.chart-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.chart {
-  width: 20%;
-  margin-right: 2rem;
-}
-
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-}
-
